@@ -1,6 +1,6 @@
 ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.0.154:5433/guest
+    url: jdbc:postgresql://database-server:5432/guest
     username: postgres
     password: docker

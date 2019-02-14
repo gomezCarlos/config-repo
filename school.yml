@@ -8,5 +8,5 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone: ${SERVICE_URL_DEFAULT_ZONE}
+      defaultZone: http://eureka-server:8761/eureka/
 
